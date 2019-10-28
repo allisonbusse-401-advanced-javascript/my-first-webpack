@@ -1,4 +1,4 @@
-const writeJson = require('./writer');
+const { writeJson } = require('./writer');
 
 function packageJsonWriter(path) {
   const obj = {

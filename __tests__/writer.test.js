@@ -14,6 +14,6 @@ describe('Writing Files', () => {
   it('writes a file given a path and an object', () => {
     writeJson({ name: 'allison' }, './data/hi.txt');
     expect(fs.writeFileSync.mock.calls[1][0]).toEqual('./data/hi.txt');
-    expect(fs.writeFileSync.mock.calls[1][1]).toEqual(JSON.stringify({ name: 'allison' }));
+    expect(fs.writeFileSync.mock.calls[1][1]).toEqual(JSON.stringify({ name: 'allison' }, null, 2));
   });
 });
