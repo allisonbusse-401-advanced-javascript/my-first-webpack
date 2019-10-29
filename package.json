@@ -1,6 +1,6 @@
 {
   "name": "create-allisons-react-app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "jest": {
@@ -17,14 +17,14 @@
   },
   "scripts": {
     "test": "jest --verbose",
-    "test:watch": "npm run test -- --watch",
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bin": {
     "create-allisons-react-app": "./index.js"
-    },
+  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
